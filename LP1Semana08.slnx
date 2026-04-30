@@ -1,3 +1,9 @@
 <Solution>
+  <Project Path="ClassAction/ClassAction.csproj" />
+  <Project Path="ClassVsStruct/ClassVsStruct.csproj" />
+  <Project Path="Game/Game.csproj" />
   <Project Path="MiniGame/MiniGame.csproj" />
+  <Project Path="OverrideVsNew/OverrideVsNew.csproj" />
+  <Project Path="Polimorfismo/Polimorfismo.csproj" />
+  <Project Path="StructWithRef/StructWithRef.csproj" />
 </Solution>
