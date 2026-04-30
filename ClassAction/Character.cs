@@ -21,7 +21,7 @@ namespace ClassAction
         //
         public override string ToString()
         {
-            return $"{} [{GetType().Name}] (Health: {Health}, Damage: {Damage})";
+            return $" [{GetType().Name}] (Health: {Health}, Damage: {Damage})";
         }
 
     //
