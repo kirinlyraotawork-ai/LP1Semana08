@@ -17,7 +17,7 @@ namespace ClassAction
 
         public override void Describe()
         {
-            Console.WriteLine($"{base.ToString()} Intelligence: {Intelligence}");
+            Console.Write($"{base.ToString()} Intelligence: {Intelligence})");
             //Console.WriteLine(ToString());
         }
         /*
