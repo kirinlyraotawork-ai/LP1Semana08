@@ -18,12 +18,15 @@ namespace ClassAction
 
         public override void Describe()
         {
-            Console.WriteLine(ToString());
+            Console.Write($"{base.ToString()}, Strenght: {Strenght}, Intelligence: {Intelligence})");
+            Console.WriteLine("Attack: Divine Blast!");
+            //Console.WriteLine(ToString());
         }
-
+/*
         public override string ToString()
         {
             return $"{base.ToString()} Strenght: {Strenght}, Intelligence: {Intelligence}";
         }
+        */
     }
 }
