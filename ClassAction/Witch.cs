@@ -14,17 +14,16 @@ namespace ClassAction
             Intelligence = intelligence;
             
         }
-
         public override void Describe()
         {
-            Console.Write($"{base.ToString()} Intelligence: {Intelligence})");
+            Console.Write($"{base.ToString()}, Intelligence: {Intelligence})");
+            Console.WriteLine("Attack: Essence Drain!");
             //Console.WriteLine(ToString());
         }
-        /*
+/*
         public override string ToString()
         {
             return $"{base.ToString()} Intelligence: {Intelligence}";
-        }
-        */
+        }*/
     }
 }
