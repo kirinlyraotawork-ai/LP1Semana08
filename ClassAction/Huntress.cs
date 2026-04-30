@@ -14,11 +14,18 @@ namespace ClassAction
             Dexterity = dexterity;
             
         }
-
+/*
         public override void Describe()
         {
-            Console.WriteLine($"{base.ToString()}; Dexterity: {Dexterity})");
+            Console.Write($"{base.ToString()}, Dexterity: {Dexterity})");
+            Console.WriteLine("Attack: Fangs of Frost!");
             //Console.WriteLine(ToString());
+        }*/
+
+        public override string ToString()
+        {
+            return $"{base.ToString()}, Dexterity: {Dexterity})";
+            Console.WriteLine("Attack: Fangs of Frost!");
         }
 /*
         public override string ToString()

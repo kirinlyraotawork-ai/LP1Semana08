@@ -51,8 +51,8 @@ namespace ClassAction
                     return;
             }
 
-            character.Describe();
-            character.Attack();
+            //character.Describe();
+            //character.Attack();
         }
     }
 }
