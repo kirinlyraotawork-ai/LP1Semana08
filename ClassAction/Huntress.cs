@@ -21,7 +21,7 @@ namespace ClassAction
             Console.WriteLine("Attack: Fangs of Frost!");
             //Console.WriteLine(ToString());
         }
-
+/*
         public override string ToString()
         {
             return $"{base.ToString()}, Dexterity: {Dexterity})";
