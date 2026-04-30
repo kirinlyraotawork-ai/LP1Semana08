@@ -15,18 +15,18 @@ namespace ClassAction
             Strenght = strenght;
             Intelligence = intelligence;
         }
-
+/*
         public override void Describe()
         {
             Console.Write($"{base.ToString()}, Strenght: {Strenght}, Intelligence: {Intelligence})");
             Console.WriteLine("Attack: Divine Blast!");
             //Console.WriteLine(ToString());
         }
-/*
+*/
         public override string ToString()
         {
             return $"{base.ToString()} Strenght: {Strenght}, Intelligence: {Intelligence}";
         }
-        */
+        
     }
 }

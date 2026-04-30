@@ -15,22 +15,24 @@ namespace ClassAction
             Damage = damage;
         }
 
-        public abstract void Describe();
+       // public abstract void Describe();
         
 
         //
         public override string ToString()
         {
-            return $"[{GetType().Name}] (Health: {Health} Damage: {Damage}";
+            return $"{} [{GetType().Name}] (Health: {Health}, Damage: {Damage})";
         }
 
     //
+    
 
-        public virtual void Attack()
-        {
+        //public virtual void Attack()
+        //{
             //Console.WriteLine($"[{GetType().Name}] (Health: {Health} Damage: {Damage})");
-            Console.Write("Attack: ");
-        }
+            
+            //Console.Write("Attack: ");
+        //}
 
         
     }
