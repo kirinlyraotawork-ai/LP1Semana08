@@ -17,18 +17,17 @@ namespace ClassAction
 
         public override void Describe()
         {
-            Console.Write($"{base.ToString()}, Strenght: {Strenght})");
-            Console.WriteLine("Attack: Earthquake!");
-            //Console.WriteLine(ToString());
+            //return $"{base.ToString()} Strenght: {Strenght}";
+            Console.WriteLine(ToString());
         }
 
-        
-/*
+        /*
+
         public override string ToString()
         {
             return $"{base.ToString()} Strenght: {Strenght}";
-        }*/
-        
+        }
+        */
     }
 }
 
